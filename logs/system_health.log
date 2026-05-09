@@ -1,0 +1,41 @@
+===================================
+system health check Thu May  7 09:20:17 PM IST 2026
+===================================
+
+CPU load:
+ 21:20:17 up 23 min,  1 user,  load average: 0.37, 0.34, 0.38
+
+memory usage
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       3.1Gi       8.0Gi        41Mi       4.7Gi        12Gi
+Swap:          8.0Gi          0B       8.0Gi
+
+disk usage
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p3  475G  6.4G  467G   2% /
+devtmpfs        7.6G     0  7.6G   0% /dev
+tmpfs           7.8G   92K  7.8G   1% /dev/shm
+efivarfs        128K   58K   66K  48% /sys/firmware/efi/efivars
+tmpfs           3.1G  2.3M  3.1G   1% /run
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           7.8G  8.0K  7.8G   1% /tmp
+/dev/nvme0n1p3  475G  6.4G  467G   2% /home
+/dev/nvme0n1p2  2.0G  635M  1.2G  35% /boot
+/dev/nvme0n1p1  599M   21M  579M   4% /boot/efi
+tmpfs           1.6G  168K  1.6G   1% /run/user/1000
+
+running services
+  UNIT                       LOAD   ACTIVE SUB     DESCRIPTION
+  abrt-journal-core.service  loaded active running ABRT coredumpctl message creator
+  abrt-oops.service          loaded active running ABRT kernel log watcher
+  abrt-xorg.service          loaded active running ABRT Xorg log watcher
+  abrtd.service              loaded active running ABRT Daemon
+  accounts-daemon.service    loaded active running Accounts Service
+  alsa-state.service         loaded active running Manage Sound Card State (restore and store)
+  atd.service                loaded active running Deferred execution scheduler
+  auditd.service             loaded active running Security Audit Logging Service
+  avahi-daemon.service       loaded active running Avahi mDNS/DNS-SD Stack
+
+health check completed
+
